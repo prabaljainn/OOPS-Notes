@@ -2,17 +2,30 @@
   font-family: "SpecialElite";
   src: url("../fonts/SpecialElite-Regular.ttf");
 }
+@font-face {
+  font-family: "digital";
+  src: url("../fonts/DIGITALDREAMFAT.ttf");
+}
 
 body {
-  margin: 5rem;
-
+  margin: 1rem;
+  /* margin-top: 15%; */
   text-align: center;
 }
 .heading {
   font-size: x-large;
-  font-family: SpecialElite;
+  /* font-family: SpecialElite;
+   */
+  font-family: digital;
 }
 .buttons {
   margin: 3rem;
   word-spacing: 2rem;
+}
+.main {
+  border-width: 1px;
+  border-style: dotted;
+}
+#JScounting {
+  font-family: digital;
 }
