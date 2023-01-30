@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "SpecialElite";
+    src: url("../fonts/SpecialElite-Regular.ttf");
+}
+
+@font-face {
+    font-family: "digital";
+    src: url("../fonts/DIGITALDREAMFAT.ttf");
+}
+
+:root {
+    --primary: #d81e5b;
+    --secondary: #8a4fff;
+    --grey: #aaa;
+    --light: #eee;
+    --dark: #131a26;
+}
+
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+    margin-top: 5%;
+    border-width: 2rem solid;
+    border-radius: 3rem;
+    /* margin-top: 15%; */
+    text-align: center;
+    border-width: 1px;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: var(--primary);
+}
+
+.heading {
+    font-size: 4rem;
+    /* font-family: SpecialElite;
+   */
+    font-family: digital;
+}
+
+.buttons {
+    margin: 2rem;
+    word-spacing: 3rem;
+    padding: 3rem;
+    background-color: var(--dark);
+}
+
+#JScounting {
+    font-family: digital;
+    font-size: 4rem;
+}
