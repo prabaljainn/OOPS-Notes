@@ -79,3 +79,23 @@ nav {
   bottom: 0;
   font-size: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .prabal-img {
+    height: 20vh;
+    bottom: 20vh;
+  }
+  .name-png {
+    height: 2vh;
+    left: 20px;
+  }
+
+  .right-links {
+    display: none;
+  }
+
+  .left-pane {
+    margin: 5vh 0;
+    font-size: 2vh;
+  }
+}
