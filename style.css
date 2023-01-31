@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 /* :root {
-  --nav-text1: #001858;
+  --nav-text1: ;
 } */
 
 body {
@@ -28,9 +28,33 @@ body {
 
 nav {
   align-items: center;
-  height: 10%;
+  /* height: 10%; */
 
   background-color: whitesmoke;
+}
+.right-links-text:hover {
+  box-shadow: 5px 5px 20px rgba(0, 28, 86, 0.669);
+  border-radius: 1rem;
+  padding: 12px 25px;
+  padding: 20px 20px;
+  border: none;
+}
+.right-links-text {
+  /* box-shadow: 5px 5px 20px rgba(0, 28, 88, 0.669); */
+  border-radius: 1rem;
+  padding: 20px 15px;
+  background-color: whitesmoke;
+  border: none;
+}
+.right-links-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-links button {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 .right-links {
   /* border: 2px red solid; */
@@ -40,11 +64,14 @@ nav {
   margin-right: 5vw;
 }
 .domain-name {
+  /* box-shadow: 4px 4px 15px rgba(0, 24, 88, 0.2);
+  border-radius: 5px; */
   color: #001858;
   font-weight: 900;
   font-size: 6vh;
 }
 .live {
+  margin-left: 5px;
   color: #6246ea;
 }
 .blob {
