@@ -9,42 +9,58 @@
     <link rel="shortcut icon" href="./icons/" type="image/x-icon" />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile-style.css">
   </head>
   <body>
-    <nav class="flex flex-row flex-space-between">
-      <p1 class="website-name">
-        <span class="domain-name">Prabaljainn</span
-        ><span class="live">.live</span>
-      </p1>
+<div class="Desktop">
+  <nav class="flex flex-row flex-space-between">
+    <p1 class="website-name">
+      <span class="domain-name">Prabaljainn</span
+      ><span class="live">.live</span>
+    </p1>
 
-      <div class="right-links flex-row">
-        <button class="right-links-text"><a href="#">AboutMe</a></button>
-        <button class="right-links-text"><a href="https://www.linkedin.com/in/prabaljainn/">LinkedIn</a></button>
+    <div class="right-links flex-row">
+      <button class="right-links-text"><a href="#">AboutMe</a></button>
+      <button class="right-links-text"><a href="https://www.linkedin.com/in/prabaljainn/">LinkedIn</a></button>
+
+      <button class="right-links-text"><a href="./resume.html">Resumé</a></button>
+      <button class="right-links-text"><a href="https://leetcode.com/prabaljainn/">Leetcode</button>
+      <button class="right-links-text"><a href="https://github.com/prabaljainn">Github</button>
         <button class="right-links-text"><a href="https://www.instagram.com/prabaljainn/">Instagram </a></button>
-        <button class="right-links-text"><a>Filler 1</button>
-        <button class="right-links-text"><a>Filler 2</button>
-        <button class="right-links-text"><a href="./resume.html">Resumé</a></button>
-      </div>
-    </nav>
-    <main class="flex flex-row">
-      <div class="left-pane flex-column">
-        <h1>BakchodioPhile,</h1>
-        <h2>Ardent Software Developer</h2>
-        <h2>Learning mode is on!</h2>
-      </div>
 
-      <div class="right-pane">
-        <img src="./img/blob.svg" alt="blob image" class="blob" />
-        <img src="./img/prabal.png" alt="Prabal's Image" class="prabal-img" />
-        <img src="./img/name-img.png" alt="name" class="name-png" />
-        <!-- <img src="./img/arrow.png" alt="" class="arrow" /> -->
-      </div>
-    </main>
-    <div class="disclaimer">
-      <p>
-        This website is under development, I am learning by applying on this
-      </p>
-      <p>Deployed on Amazon EC2, Made with pure HTML and CSS</p>
     </div>
+  </nav>
+
+  <div class="grid mobile">
+    <button class="grid-btn"><a href="" class="btn-links">AboutMe</a></button>
+    <button class="grid-btn"><a href=https://www.linkedin.com/in/prabaljainn/" class="btn-links">LinkedIn</a></button>
+    <button class="grid-btn"><a href="resume.html" class="btn-links">Resumé</a></button>
+    <button class="grid-btn"><a href="https://leetcode.com/prabaljainn/" class="btn-links">Leetcode</a></button>
+    <button class="grid-btn"><a href="https://github.com/prabaljainn" class="btn-links">Github</a></button>
+    <button class="grid-btn"><a href="https://www.instagram.com/prabaljainn/" class="btn-links">Instagram</a></button>
+  </div>
+  <main class="flex flex-row">
+    <div class="left-pane flex-column no-mobile">
+      <h1>Final year undergrad</h1>
+      <h2>Ardent Software Developer</h2>
+      <h2>Hi There!</h2>
+    </div>
+
+    <div class="right-pane">
+      <img src="./img/blob.svg" alt="blob image" class="blob no-mobile" />
+      <img src="./img/prabal.png" alt="Prabal's Image" class="prabal-img no-mobile" />
+      <img src="./img/name-img.png" alt="name" class="name-png no-mobile" />
+      <!-- <img src="./img/arrow.png" alt="" class="arrow" /> -->
+    </div>
+  </main>
+  <div class="disclaimer">
+    <p>
+      This website is under development, I am learning by applying on this
+    </p>
+    <p>Deployed on Amazon EC2, Made with pure HTML and CSS</p>
+  </div>
+</div>
+
+
   </body>
 </html>
